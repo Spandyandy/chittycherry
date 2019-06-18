@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import Form from './Components/Form/'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="row align-items-center">
+        <div className="sec1 col d-flex align-content-center flex-wrap" >
+          <h1>Chitty Cherry</h1>
+        </div>
+        <div className="sec2 col d-flex align-content-center flex-wrap" ><Form/></div>
+      </div>
     </div>
   );
 }
